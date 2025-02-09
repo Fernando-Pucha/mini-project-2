@@ -1,15 +1,37 @@
+import { NavLink } from "react-router-dom";
+
 export default function Sidebar() {
     return (
-        <aside>
-            <h3>Menu</h3>
+        <aside className="sidebar">
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <NavLink 
+                        to="/" 
+                        className={({ isActive }) => isActive ? "selected" : ""}
+/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    >
+                        Home
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <NavLink 
+                        to="/products" 
+                        className={({ isActive }) => isActive ? "selected" : ""}
+/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    >
+                        Products
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink 
+                        to="/about" 
+                        className={({ isActive }) => isActive ? "selected" : ""}
+/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    >
+                        About
+                    </NavLink>
                 </li>
             </ul>
         </aside>
-    )
+    );
 }

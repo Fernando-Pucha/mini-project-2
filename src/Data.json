@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Funko Pop! Monkey D. Luffy",
+    "description": "Luffy with Straw Hat and Gum-Gum powers.",
+    "brand": "Funko",
+    "model": "One Piece #01",
+    "price": 10.99,
+    "image": "https://m.media-amazon.com/images/I/81aQmjff2kL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Figures",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "name": "Funko Pop! Roronoa Zoro",
+    "description": "Zoro with swords, a skilled swordsman of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #02",
+    "price": 12.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQwfoFbGjFaho9mtZv7vFNAD6tPykRp7LK2YdnJqdEmtb2COuCtdk1MMsjT1L02FVC9E-OtvJ9akIwv1dMzNjHCE7FLDc21ME3oahDhBXove-K1bpD01Wsxd4s",
+    "category": "Figures",
+    "stock": 30
+  },
+  {
+    "id": 3,
+    "name": "Funko Pop! Nami",
+    "description": "Nami, the talented navigator of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #03",
+    "price": 11.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJ3_IJRuPhal4PZFrvGTxisD7ZLmlGUPBoAYlRUvgJsg7j_xFnuUu4J5iLQyAw2LSBuwKkGUgw5UtfRdCnvweMNsiP7e4RVIpHyAi1TtPsBCYAt_l85VPnTA",
+    "category": "Figures",
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Funko Pop! Usopp",
+    "description": "Usopp, the sharpshooter and storyteller of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #04",
+    "price": 10.49,
+    "image": "https://m.media-amazon.com/images/I/713JwqbpviL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Figures",
+    "stock": 15
+  },
+  {
+    "id": 5,
+    "name": "Funko Pop! Sanji",
+    "description": "Sanji, the chef of the Straw Hat Pirates, with his iconic kick.",
+    "brand": "Funko",
+    "model": "One Piece #05",
+    "price": 12.49,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREf4bZUk5MDAvybZgtOS38zVckpV5WCYeGLgVTZEkkQ25GJaH-M6vLDEP-eKJCM7v8Gc_iiphAM9GSoN3W3EkqvS4xdAGT62_fPCvY-nfdtB2LU_2QCemf8g",
+    "category": "Figures",
+    "stock": 18
+  },
+  {
+    "id": 6,
+    "name": "Funko Pop! Tony Tony Chopper",
+    "description": "Chopper, the adorable reindeer doctor of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #06",
+    "price": 9.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsLilIJkgHPsau0E3XvNOrdzh8DUu6TMzd57aapqroT3o-5SnjdZUlPZp6w4RzPYf3TCt3xPsO1x6flQi5K7taSl5U9yEp6owzYBbkXbQWxHhFDyBm9J-YRA",
+    "category": "Figures",
+    "stock": 40
+  },
+  {
+    "id": 7,
+    "name": "Funko Pop! Nico Robin",
+    "description": "Robin, the archaeologist of the Straw Hat Pirates with her Devil Fruit powers.",
+    "brand": "Funko",
+    "model": "One Piece #07",
+    "price": 13.49,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRTnzIK4RVQTV0_vHIWusBOwt6R3RlRYXwUMXbRpmEWtIIbt7wBYLfVUQK4UdQjtBrl3m0JHdo1KnHlTnTa1zxWLjD6jjT2UcmReJCrA1K-06HY-JKi9xAsaw",
+    "category": "Figures",
+    "stock": 22
+  },
+  {
+    "id": 8,
+    "name": "Funko Pop! Franky",
+    "description": "Franky, the cyborg shipwright of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #08",
+    "price": 14.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTIo85wnkPDK5KS1On5AwTUJF6QHqP8ZEcw46is7JXitvsYWoDOIgnqaI_PvT8p0dBEzs2aUx_AMuDh9-l1Cej3iFtDgALkERWs98NIdFy5w2q60Y2qDsiR",
+    "category": "Figures",
+    "stock": 17
+  },
+  {
+    "id": 9,
+    "name": "Funko Pop! Brook",
+    "description": "Brook, the musician and skeleton of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #09",
+    "price": 13.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSaRftg3PUbBgoehBYRAHpNbS0HU-y7irenTlkKAV26tBY55Z-VjAJh8XD1m9As9bSne_hCIHyyCO1uPviyEQEEtQ-q_kET-43jBCRqNVp3Pb8wiX-Z9h5dnZo",
+    "category": "Figures",
+    "stock": 19
+  },
+  {
+    "id": 10,
+    "name": "Funko Pop! Jinbe",
+    "description": "Jinbe, the fish-man and former Warlord of the Sea, now part of the Straw Hat Pirates.",
+    "brand": "Funko",
+    "model": "One Piece #10",
+    "price": 15.49,
+    "image": "https://1fb9cb7e.delivery.rocketcdn.me/wp-content/uploads/2023/02/funko-pop-animation-one-piece-jinbe-1265.jpeg",
+    "category": "Figures",
+    "stock": 14
+  },
+  {
+    "id": 11,
+    "name": "Funko Pop! Luffy Gear Fourth",
+    "description": "Luffy in his Gear Fourth form, ready for intense combat.",
+    "brand": "Funko",
+    "model": "One Piece #11",
+    "price": 17.99,
+    "image": "https://m.media-amazon.com/images/I/81Lyh6TZK9L._AC_SX679_.jpg",
+
+    "category": "Figures",
+    "stock": 12
+  },
+  {
+    "id": 12,
+    "name": "Funko Pop! Trafalgar D. Water Law",
+    "description": "Law, the pirate with the Ope Ope no Mi ability.",
+    "brand": "Funko",
+    "model": "One Piece #12",
+    "price": 16.99,
+    "image": "https://m.media-amazon.com/images/I/81Bv-OlGj9L._AC_SX679_.jpg",
+    "category": "Figures",
+    "stock": 16
+  },
+  {
+    "id": 13,
+    "name": "Funko Pop! Boa Hancock",
+    "description": "Boa Hancock, the beautiful and powerful pirate empress.",
+    "brand": "Funko",
+    "model": "One Piece #13",
+    "price": 14.49,
+    "image": "https://fanatiko.es/cdn/shop/files/FiguraFunkoPOPBoaHancock330-OnePiece2.jpg?v=1725640662&width=1445",
+    "category": "Figures",
+    "stock": 10
+  },
+  {
+    "id": 14,
+    "name": "Funko Pop! Sabo",
+    "description": "Sabo, the brother of Luffy and second in command of the Revolutionary Army.",
+    "brand": "Funko",
+    "model": "One Piece #14",
+    "price": 15.49,
+    "image": "https://frikytopia.store/wp-content/uploads/2024/03/img_279220_af67f2f78030fd1f73fba13fa10278d5_1.jpg",
+    "category": "Figures",
+    "stock": 13
+  },
+  {
+    "id": 15,
+    "name": "Funko Pop! Shanks",
+    "description": "Shanks, the Red-Haired Pirate who inspired Luffy.",
+    "brand": "Funko",
+    "model": "One Piece #15",
+    "price": 18.99,
+    "image": "https://1fb9cb7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/funko-pop-animation-one-piece-shanks-chase-939-jpg-500x670.webp",
+    "category": "Figures",
+    "stock": 11
+  },
+  {
+    "id": 16,
+    "name": "Funko Pop! Katakury",
+    "description": "Katakury, Bigmon's son.",
+    "brand": "Funko",
+    "model": "One Piece #16",
+    "price": 19.49,
+    "image": "https://images-eu.ssl-images-amazon.com/images/I/71wKVlkstoL._AC_UL495_SR435,495_.jpg",
+    "category": "Figures",
+    "stock": 10
+  },
+  {
+    "id": 17,
+    "name": "Funko Pop! Ace",
+    "description": "Ace, the beloved brother of Luffy, known for his powers of the Mera Mera no Mi.",
+    "brand": "Funko",
+    "model": "One Piece #17",
+    "price": 16.49,
+    "image": "https://m.media-amazon.com/images/I/817PmAvKyKL._AC_SX679_.jpg",
+    "category": "Figures",
+    "stock": 15
+  },
+  {
+    "id": 18,
+    "name": "Funko Pop! Onami",
+    "description": "Nami in her wedding dress from the One Piece anime.",
+    "brand": "Funko",
+    "model": "One Piece #18",
+    "price": 20.99,
+    "image": "https://m.media-amazon.com/images/I/71zut7+nnuL._AC_SX679_.jpg",
+    "category": "Figures",
+    "stock": 8
+  },
+  {
+    "id": 19,
+    "name": "Funko Pop! Luffy Geard five)",
+    "description": "Luffy wearing a Chopper hat as a tribute to his friend.",
+    "brand": "Funko",
+    "model": "One Piece #19",
+    "price": 13.49,
+    "image": "https://1fb9cb7e.delivery.rocketcdn.me/wp-content/uploads/2024/04/funko-pop-animation-one-piece-luffy-gear-five-chase-gitd-1607-jpg.webp",
+    "category": "Figures",
+    "stock": 14
+  },
+  {
+    "id": 20,
+    "name": "Funko Pop! Zoro (Emma)",
+    "description": "Zoro with his sword Emma, part of his legendary sword collection.",
+    "brand": "Funko",
+    "model": "One Piece #20",
+    "price": 14.99,
+    "image": "https://m.media-amazon.com/images/I/71p6kAQWs7L._AC_SX679_.jpg",
+    "category": "Figures",
+    "stock": 18
+  }
+]

@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer>
+        <footer className="footer">
         <p>
             &copy; 2025 <span>Repositorio</span>
         </p>
