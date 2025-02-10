@@ -4,10 +4,10 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
-import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
-import ProductsList from './pages/ProductsList';
+import DashboardPage from './pages/DashboardPage';
+import DetailsProductsList from './components/DetailsProductsList';
 
 function App() {
 
@@ -17,14 +17,14 @@ function App() {
       <div className="contentCenter" style={{ display: 'flex' }}>
         <Sidebar />
         <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/products" element={<ProductsList />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+          <Route path="/" element={<DashboardPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/funkoDetails/:funkoId" element={<DetailsProductsList />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
       </div>
 
-      
+
       <Footer />
     </div>
   );

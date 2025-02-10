@@ -4,29 +4,38 @@ export default function Sidebar() {
     return (
         <aside className="sidebar">
             <ul>
-                <li>
-                    <NavLink 
-                        to="/" 
+                {/* <li>
+                    <NavLink
+                        to="/"
                         className={({ isActive }) => isActive ? "selected" : ""}
-/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
-                    >
+                    /*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    /* >
                         Home
                     </NavLink>
-                </li>
+                </li> */} 
                 <li>
-                    <NavLink 
-                        to="/products" 
+                    <NavLink
+                        to="/"
                         className={({ isActive }) => isActive ? "selected" : ""}
-/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    /*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
                     >
-                        Products
+                        Dashboard
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink 
-                        to="/about" 
+                    <NavLink
+                        to="/AddProduct"
                         className={({ isActive }) => isActive ? "selected" : ""}
-/*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    /*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
+                    >
+                        Add Product
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/about"
+                        className={({ isActive }) => isActive ? "selected" : ""}
+                    /*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
                     >
                         About
                     </NavLink>
