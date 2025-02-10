@@ -3,9 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
     const location = useLocation();
-    const pathName = location.pathname === "/" ? "Funko Pop" :
-        location.pathname === "/about" ? "About" :
-            location.pathname === "/AddProduct" ? "Add Product" : "";
+    /* Para que aparezca el nombre de la pagina que selecciono */
+    const pathName =location.pathname === "/" ? "Funko Pop" :
+                    location.pathname === "/about" ? "About" :
+                    location.pathname === "/addProduct" ? "Add Product" : "";
     return (
         <nav className="NavBar">
             <div className="navBarTitle">

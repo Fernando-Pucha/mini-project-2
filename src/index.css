@@ -72,6 +72,9 @@ body {
 }
 
 .NavBar {
+  /* position: fixed;   
+  top: 0;            
+  width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,8 +89,10 @@ body {
 }
 
 .sidebar {
-  width: 15%;
-  height: 100vh;
+  /* position: fixed;
+  top: 82px;
+  height: 81vh;*/
+  width: 200px;
   background-color: #f4f4f4;
   font-size: 1.5em;
   display: flex;
@@ -97,26 +102,33 @@ body {
 .sidebar ul {
   list-style-type: none;
 }
+
 .sidebar li {
-  margin-bottom: 15px; /* Espaciado entre elementos */
+  margin-bottom: 15px;
+  /* Espaciado entre elementos */
 }
 
 .sidebar a {
   display: block;
-  text-decoration: none; /* Elimina el subrayado del enlace */
+  text-decoration: none;
+  /* Elimina el subrayado del enlace */
 }
 
-.sidebar a:hover, .sidebar a:active {
-  background-color: #f0f0f0; /* Fondo al pasar el ratón */
-  color: #007bff; /* Color del texto al hacer hover */
+.sidebar a:hover,
+.sidebar a:active {
+  background-color: #f0f0f0;
+  /* Fondo al pasar el ratón */
+  color: #007bff;
+  /* Color del texto al hacer hover */
 }
 
 .selected {
   font-weight: bold;
-  color: #007bff; /* Color para el enlace activo */
+  color: #007bff;
+  /* Color para el enlace activo */
 }
 
-.footer{
+.footer {
   background-color: #404FED;
   color: white;
   text-align: center;
@@ -126,7 +138,7 @@ body {
   width: 100%;
 }
 
-.navBarTitle{
+.navBarTitle {
   color: white;
   font-size: 1.5em;
   display: flex;

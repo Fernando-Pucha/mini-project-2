@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar';
 import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
 import DashboardPage from './pages/DashboardPage';
+import AddProduct from './components/AddProduct';
 import DetailsProductsList from './components/DetailsProductsList';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/funkoDetails/:funkoId" element={<DetailsProductsList />} />
+          <Route path="/funkoDetails/:funkoId" element={<DetailsProductsList/>} />
+          <Route path="/addProduct" element={<AddProduct />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>

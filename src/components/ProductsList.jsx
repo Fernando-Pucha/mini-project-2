@@ -1,14 +1,9 @@
 import { Link } from "react-router-dom";
 
-export default function ProductsList({ funko, handleDelete }) {
-
-    /*     const handleDeleteClic= (event)=>{
-            event.preventDefaul();
-            handleDelete(funko.id);
-        } */
+export default function ProductsList({ key, funko, handleDelete }) {
 
     return (
-        <li key={funko.id}>
+        <li key={key}>
 
             <Link to={`/funkoDetails/${funko.id}`}>
                 <div>

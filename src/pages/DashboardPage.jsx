@@ -18,7 +18,7 @@ export default function DashboardPage() {
 
             <ul>
                 {funkos.map(funko => (
-                    <ProductsList funko={funko} handleDelete={handleDelete} />
+                    <ProductsList key={funko.id} funko={funko} handleDelete={handleDelete} />
                 ))}
             </ul>
 

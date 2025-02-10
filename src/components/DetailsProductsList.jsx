@@ -10,11 +10,17 @@ export default function DetailsProductsList() {
     return (
         <div className="details-products-list" >
             <h1>Details {funkoDetails.name}</h1>
-            <img src={funkoDetails.image} alt={funkoDetails.name} />
-  {/*           <h2>{funkoDetails.name} </h2> */}
-            < p > {funkoDetails.description} </p>
-            < p > Price: ${funkoDetails.price} </p>
-            < Link to="/products" > Back to products </Link>
+            <div className="detailsProducts">
+                <img src={funkoDetails.image} alt={funkoDetails.name} />
+                <div>
+                    <p> {funkoDetails.description} </p>
+                    <p> Price: ${funkoDetails.price} </p>
+                    <p>Stock: {funkoDetails.stock}</p>
+                </div>
+
+            </div>
+
+            < Link to="/" > Back to products </Link>
         </div>
     );
 }
