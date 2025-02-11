@@ -5,6 +5,10 @@
   justify-content: center;
   margin: auto;
  }
+
+ .ProductsList li:hover {
+  transform: scale(1.05);
+}
 .ProductsList ul{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -37,22 +41,97 @@
   transition: background-color 0.3s;
  }
  
- button:hover {
+ .buttons button:hover {
   background-color: #357ab7;
   color: white;
+  transform: scale(1.05);
+  
 }
 
- .detailsProducts{
+/* Estilo para el contenedor principal */
+.details-products-list {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* Título principal */
+.details-products-list h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de los detalles del producto */
+.detailsProducts {
   display: flex;
- }
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 30px;
+}
 
- .details-products-list{
-  width: 100%;
- }
+/* Estilo para la imagen */
+.detailsProducts img {
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
 
- .details-products-list img{
-  width: 300px;
- }
+/* Estilo para la sección de texto (descripción, precio, stock) */
+.detailsProducts div {
+  text-align: left;
+  max-width: 500px;
+}
+
+/* Descripción del producto */
+.detailsProducts p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el precio */
+.detailsProducts p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Estilo para el stock */
+.detailsProducts p:nth-child(3) {
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de retroceso */
+.details-products-list button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Efecto de hover en el botón */
+.details-products-list button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
 
 /* Para la page about */
 .about-container {
@@ -181,4 +260,5 @@ input:focus, textarea:focus, select:focus {
 
 .formAddProduct button:hover {
   background-color: #357ab7;
+  transform: scale(1.05);
 }

@@ -17,10 +17,10 @@ export default function DetailsProductsList() {
                     <p> Price: ${funkoDetails.price} </p>
                     <p>Stock: {funkoDetails.stock}</p>
                 </div>
-
             </div>
-
-            < Link to="/" > Back to products </Link>
+            <Link to="/">
+                <button>Back</button>
+            </Link>
         </div>
     );
 }
