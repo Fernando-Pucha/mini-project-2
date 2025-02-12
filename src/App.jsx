@@ -9,8 +9,21 @@ import ErrorPage from './pages/ErrorPage';
 import DashboardPage from './pages/DashboardPage';
 import AddProduct from './components/AddProduct';
 import DetailsProductsList from './components/DetailsProductsList';
+import { useState } from 'react';
+import dataFunkoPop from './Data.json';
 
 function App() {
+
+  const [funkos, setFunkos] = useState(dataFunkoPop);
+
+  const handleDelete = (idToDelete) => {
+      const updatedFunkos = funkos.filter((funko) => funko.id !== idToDelete);
+      setFunkos(updatedFunkos);
+  };
+
+  const addProduct= (newProduct) =>{
+    setFunkos([...funkos,newProduct])
+  }
 
   return (
     <div className="App">
@@ -18,10 +31,10 @@ function App() {
       <div className="contentCenter" style={{ display: 'flex' }}>
         <Sidebar />
         <Routes>
-          <Route path="/" element={<DashboardPage />} />
+          <Route path="/" element={<DashboardPage funkos={funkos} handleDelete={handleDelete}/>} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/funkoDetails/:funkoId" element={<DetailsProductsList/>} />
-          <Route path="/addProduct" element={<AddProduct />} />
+          <Route path="/addProduct" element={<AddProduct addProduct={addProduct}/>} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>

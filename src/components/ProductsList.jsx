@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-export default function ProductsList({ key, funko, handleDelete }) {
+export default function ProductsList({ funko, handleDelete }) {
 
     return (
-        <li key={key}>
+        <li >
 
             <Link to={`/funkoDetails/${funko.id}`}>
                 <div>

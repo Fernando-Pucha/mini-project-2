@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function AddProduct({ addProduct }) {
+export default function EditProduct({ addProduct }) {
 
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
@@ -35,8 +35,7 @@ export default function AddProduct({ addProduct }) {
         };
 
       addProduct(newProduct);
-      console.log(newProduct)
-
+    
         setName('');
         setDescription('');
         setBrand('');

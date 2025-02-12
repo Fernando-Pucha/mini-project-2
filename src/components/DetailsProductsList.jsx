@@ -18,9 +18,14 @@ export default function DetailsProductsList() {
                     <p>Stock: {funkoDetails.stock}</p>
                 </div>
             </div>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
             <Link to="/">
                 <button>Back</button>
             </Link>
+            <button>Update</button>
+            </div>
+            
+            
         </div>
     );
 }
