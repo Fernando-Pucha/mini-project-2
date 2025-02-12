@@ -34,18 +34,20 @@
  .buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 1rem; 
+ }
+ 
+ .buttons button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
  }
- 
+
  .buttons button:hover {
   background-color: #357ab7;
   color: white;
-  transform: scale(1.05);
-  
+  transform: scale(1.05);  
 }
 
 /* Estilo para el contenedor principal */

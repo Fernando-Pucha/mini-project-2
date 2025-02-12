@@ -34,7 +34,8 @@ export default function AddProduct({ addProduct }) {
             stock
         };
 
-        addProduct(newProduct);
+      /*   addProduct(newProduct); */
+      console.log(newProduct)
 
         setName('');
         setDescription('');
