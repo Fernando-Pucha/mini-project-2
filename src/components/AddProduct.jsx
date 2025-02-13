@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-export default function AddProduct({ addProduct }) {
+export default function AddProduct({ counterIdFunkos, addProduct }) {
 
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
@@ -9,7 +8,7 @@ export default function AddProduct({ addProduct }) {
     const [price, setPrice] = useState('');
     const [image, setImage] = useState('');
     const [category, setCategory] = useState('');
-    const [stock, setStock] = useState(0);
+    const [stock, setStock] = useState('');
 
 
     const handleNameInput = e => setName(e.target.value);
@@ -24,6 +23,7 @@ export default function AddProduct({ addProduct }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         const newProduct = {
+            id: counterIdFunkos,
             name,
             description,
             brand,
@@ -34,9 +34,8 @@ export default function AddProduct({ addProduct }) {
             stock
         };
 
-      addProduct(newProduct);
-      console.log(newProduct)
-
+        addProduct(newProduct);
+        
         setName('');
         setDescription('');
         setBrand('');
@@ -51,51 +50,18 @@ export default function AddProduct({ addProduct }) {
         <form className="formAddProduct" onSubmit={handleSubmit}>
             <span>Add a Product</span>
             <div className="form-grid">
-                <label>
-                    {/* Name */}
-                    <input name="name" type="text" placeholder="Product Name" value={name} onChange={handleNameInput} />
-                </label>
-
-                <label>
-                    {/* Description */}
-                    <textarea name="description" placeholder="Product Description" value={description} onChange={handleDescriptionInput} />
-                </label>
-
-                <label>
-                {/*     Brand */}
-                    <input name="brand" type="text" placeholder="Brand" value={brand} onChange={handleBrandInput} />
-                </label>
-
-                <label>
-                    {/* Model */}
-                    <input name="model" type="text" placeholder="Model" value={model} onChange={handleModelInput} />
-                </label>
-
-                <label>
-                   {/*  Price */}
-                    <input name="price" type="number" placeholder="Price €" value={price} onChange={handlePriceInput} />
-                </label>
-
-                <label>
-                    {/* Image URL */}
-                    <input name="image" type="url" placeholder="Product Image URL" value={image} onChange={handleImageInput} />
-                </label>
-
-                <label>
-                    {/* Category */}
-                    <input name="category" type="text" placeholder="Category" value={category} onChange={handleCategoryInput} />
-                </label>
-
-                <label>
-                    Stock Quantity
-                    <input name="stock" type="number" placeholder="Stock Quantity" value={stock} onChange={handleStockInput} />
-                </label>
-
-                
+                <input name="name" type="text" placeholder="Product Name" value={name} onChange={handleNameInput} />
+                <textarea name="description" placeholder="Product Description" value={description} onChange={handleDescriptionInput} />
+                <input name="brand" type="text" placeholder="Brand" value={brand} onChange={handleBrandInput} />
+                <input name="model" type="text" placeholder="Model" value={model} onChange={handleModelInput} />
+                <input name="price" type="number" placeholder="Price €" value={price} onChange={handlePriceInput} />
+                <input name="image" type="url" placeholder="Product Image URL" value={image} onChange={handleImageInput} />
+                <input name="category" type="text" placeholder="Category" value={category} onChange={handleCategoryInput} />
+                <input name="stock" type="number" placeholder="Stock Quantity" value={stock} onChange={handleStockInput} />
             </div>
 
             <button type="submit">Add Product</button>
-            
+
         </form>
     );
 }

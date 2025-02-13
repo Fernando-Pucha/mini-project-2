@@ -6,10 +6,7 @@ export default function Sidebar() {
             <ul>
                 
                 <li>
-                    <NavLink
-                        to="/"
-                        className={({ isActive }) => isActive ? "selected" : ""}
-                    >
+                    <NavLink to="/" className={({ isActive }) => isActive ? "selected" : ""} >
                         Dashboard
                     </NavLink>
                 </li>
@@ -25,7 +22,6 @@ export default function Sidebar() {
                     <NavLink
                         to="/about"
                         className={({ isActive }) => isActive ? "selected" : ""}
-                    /*                         aria-current={({ isActive }) => isActive ? "page" : undefined} */
                     >
                         About
                     </NavLink>
