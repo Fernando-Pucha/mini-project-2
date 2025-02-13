@@ -73,7 +73,7 @@ export default function AddProduct({ addProduct }) {
 
                 <label>
                    {/*  Price */}
-                    <input name="price" type="number" placeholder="Price" value={price} onChange={handlePriceInput} />
+                    <input name="price" type="number" placeholder="Price €" value={price} onChange={handlePriceInput} />
                 </label>
 
                 <label>
