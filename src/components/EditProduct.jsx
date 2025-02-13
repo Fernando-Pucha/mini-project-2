@@ -1,5 +1,4 @@
 import { useState } from "react";
-import dataFunkoPop from '../Data.json';
 
 export default function EditProduct({ dataFunko, onFormSubmit }) {
 

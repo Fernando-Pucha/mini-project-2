@@ -4,25 +4,18 @@ export default function Sidebar() {
     return (
         <aside className="sidebar">
             <ul>
-                
                 <li>
                     <NavLink to="/" className={({ isActive }) => isActive ? "selected" : ""} >
                         Dashboard
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink
-                        to="/addProduct"
-                        className={({ isActive }) => isActive ? "selected" : ""}
-                    >
+                    <NavLink to="/addProduct" className={({ isActive }) => isActive ? "selected" : ""}>
                         Add Product
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink
-                        to="/about"
-                        className={({ isActive }) => isActive ? "selected" : ""}
-                    >
+                    <NavLink to="/about" className={({ isActive }) => isActive ? "selected" : ""} >
                         About
                     </NavLink>
                 </li>
