@@ -1,4 +1,3 @@
-/* import dataFunkoPop from '../Data.json'; */
 import { Link, useParams } from "react-router-dom";
 import EditProduct from './EditProduct';
 import { useState } from 'react';

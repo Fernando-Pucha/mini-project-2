@@ -6,7 +6,7 @@ export default function Sidebar() {
             <ul>
                 <li>
                     <NavLink to="/" className={({ isActive }) => isActive ? "selected" : ""} >
-                        Dashboard
+                        Product
                     </NavLink>
                 </li>
                 <li>
